@@ -13,7 +13,8 @@ h1{
 
 main{
   background-color: white;
-  width: 60%;
+  max-width: 800px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
@@ -25,16 +26,18 @@ main{
 }
 
 .breed-select{
-  width: 20%;
+  max-width: 280px;
+  width: 50%;
   margin: 5%;
 }
 
 #doggo-image{
   margin: 16px auto;
   object-fit: contain;
-  width: 50%;
+  max-width: 400px;
+  width: 80%;
   cursor: pointer;
-  border-radius: 100px;
+  border-radius: 30px;
 }
 
 #doggo-description{
