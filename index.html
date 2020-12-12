@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja-JP" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The dog API</title>
+  </head>
+  <body>
+
+    <h1>Escolha seu doguinho</h1>
+
+    <main>
+      <select class="breed-select" onchange="changeDoggo(this)">
+        <option value="">Escolha uma raça</option>
+      </select>
+      <img id="doggo-image" src="" alt="doggo">
+      <dl id="doggo-description"></dl>
+    </main>
+    <script src="config.js" type="text/javascript"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: lightgray;
+}
+
+h1{
+  text-align: center;
+  margin-top: 30px;
+}
+
+main{
+  background-color: white;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.breed-select{
+  width: 20%;
+  margin: 5%;
+}
+
+#doggo-image{
+  margin: 16px auto;
+  object-fit: contain;
+  width: 50%;
+  cursor: pointer;
+  border-radius: 100px;
+}
+
+#doggo-description{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#doggo-description dt{
+  font-size: 24px;
+}
+#doggo-description dd {
+  margin: 8px 0;
+  text-align: center;
+}
